@@ -1,0 +1,21 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = crlf
+indent_size = 4
+indent_style = space
+insert_final_newline = false
+max_line_length = 128
+tab_width = 4
+
+[*.{json,yml,yaml}]
+indent_size = 2
+
+[*.{ctp,hphp,module,phtml,php,php4,php5,inc}]
+indent_style = tab
+ij_php_indent_code_in_php_tags = true
+ij_php_align_phpdoc_comments = true
+ij_php_align_phpdoc_param_names = true
+ij_php_phpdoc_wrap_long_lines = true
+ij_php_phpdoc_blank_lines_around_parameters = true
